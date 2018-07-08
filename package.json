@@ -10,8 +10,7 @@
     "babel-node": "babel-node",
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon --exec npm run babel-node -- server.js",
-    "client": "node start-client.js",
-    "build": "babel src -d dist"
+    "client": "node start-client.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
