@@ -42,6 +42,7 @@ If you want to run only the FE:
 * Connect with GitHub.
 * Select deploy branch.
 * Enable Automatic deploys.
+* Remove the build folder from your .gitignore file
 * Push your changes.
 * Go to activity tab on Heroku page and verify the build status.
 * Click on open app to see your page. 
